@@ -1,0 +1,16 @@
+services:
+  postgres:
+    image: postgres:17
+    container_name: qtkd-postgres
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: qtkd_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - qtkd_pgdata:/var/lib/postgresql/data
+
+volumes:
+  qtkd_pgdata:
+

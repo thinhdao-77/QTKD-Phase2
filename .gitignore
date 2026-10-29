@@ -1,0 +1,12 @@
+## Ignore Visual Studio / .NET build artifacts and secrets
+bin/
+obj/
+.vs/
+.idea/
+*.user
+*.suo
+.env
+*.trx
+TestResults/
+*.pdf
+
