@@ -22,5 +22,14 @@ public sealed class CustomerRepository : ICustomerRepository
     public Task<Customer?> GetByIdAsync(int id, CancellationToken cancellationToken = default) =>
         _context.Customers
             .FirstOrDefaultAsync(c => c.Id == id, cancellationToken);
-}
 
+    public Task<bool> ExistsByCodeAsync(string customerCode, CancellationToken cancellationToken = default) =>
+        _context.Customers
+            .AnyAsync(c => c.CustomerCode.ToLower() == customerCode.ToLower(), cancellationToken);
+
+    public async Task AddAsync(Customer customer, CancellationToken cancellationToken = default) =>
+        await _context.Customers.AddAsync(customer, cancellationToken);
+
+    public Task SaveChangesAsync(CancellationToken cancellationToken = default) =>
+        _context.SaveChangesAsync(cancellationToken);
+}

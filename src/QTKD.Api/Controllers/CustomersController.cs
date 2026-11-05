@@ -31,5 +31,29 @@ public sealed class CustomersController : ControllerBase
         var customer = await _customerService.GetByIdAsync(id, cancellationToken);
         return Ok(customer);
     }
-}
 
+    [HttpPost]
+    [ProducesResponseType(typeof(CustomerResponse), StatusCodes.Status201Created)]
+    [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status409Conflict)]
+    public async Task<ActionResult<CustomerResponse>> Create(
+        [FromBody] CreateCustomerRequest request,
+        CancellationToken cancellationToken)
+    {
+        var created = await _customerService.CreateAsync(request, cancellationToken);
+        return CreatedAtAction(nameof(GetById), new { id = created.Id }, created);
+    }
+
+    [HttpPut("{id:int}")]
+    [ProducesResponseType(typeof(CustomerResponse), StatusCodes.Status200OK)]
+    [ProducesResponseType(typeof(ValidationProblemDetails), StatusCodes.Status400BadRequest)]
+    [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status404NotFound)]
+    public async Task<ActionResult<CustomerResponse>> Update(
+        int id,
+        [FromBody] UpdateCustomerRequest request,
+        CancellationToken cancellationToken)
+    {
+        var updated = await _customerService.UpdateAsync(id, request, cancellationToken);
+        return Ok(updated);
+    }
+}
