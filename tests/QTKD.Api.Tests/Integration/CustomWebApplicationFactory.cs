@@ -48,3 +48,4 @@ public sealed class CustomWebApplicationFactory : WebApplicationFactory<Program>
         await base.DisposeAsync();
     }
 }
+

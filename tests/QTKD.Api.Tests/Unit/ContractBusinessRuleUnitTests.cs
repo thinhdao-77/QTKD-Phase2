@@ -377,3 +377,4 @@ public sealed class ContractBusinessRuleUnitTests
         Assert.Equal(originalSubmittedAt, stored.SubmittedAt);
     }
 }
+

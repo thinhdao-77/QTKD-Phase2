@@ -90,3 +90,4 @@ public sealed class FakeContractRepository : IContractRepository
     public Task SaveChangesAsync(CancellationToken cancellationToken = default) =>
         Task.CompletedTask;
 }
+

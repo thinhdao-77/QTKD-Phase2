@@ -1,0 +1,775 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="f91379d4-e093-4a82-a960-9ba76d2b6f08" name="Asus TUF@LAPTOP-LTE5438L 2026-11-12 17:37:57" runUser="LAPTOP-LTE5438L\Asus TUF" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2026-11-12T17:37:57.2497716+07:00" queuing="2026-11-12T17:37:57.2497724+07:00" start="2026-11-12T17:37:56.4740853+07:00" finish="2026-11-12T17:38:00.1146348+07:00" />
+  <TestSettings name="default" id="329e76b6-761f-4854-8ad5-0030f2ec37eb">
+    <Deployment runDeploymentRoot="Asus_TUF_LAPTOP-LTE5438L_2026-11-12_17_37_57" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="ccc77bfa-212c-474a-8fce-bb2866fc868f" testId="5908bc5a-999b-2dc4-b605-dab19a04b08f" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;&quot;, name: &quot;Công ty ABC&quot;, expectedErrorKey: &quot;CustomerCode&quot;)" computerName="LAPTOP-LTE5438L" duration="00:00:00.0000218" startTime="2026-11-12T17:37:57.1810508+07:00" endTime="2026-11-12T17:37:57.1810509+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccc77bfa-212c-474a-8fce-bb2866fc868f" />
+    <UnitTestResult executionId="9f268858-12b2-446c-a46f-49063a9ee7c5" testId="4076e117-f6e1-2860-d8a3-72d4bfd34203" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC02_Integration_CreateCustomerMissingRequiredFields_Returns400WithValidationErrorsAndDoesNotSave" computerName="LAPTOP-LTE5438L" duration="00:00:00.0364292" startTime="2026-11-12T17:37:59.5822568+07:00" endTime="2026-11-12T17:37:59.5822570+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f268858-12b2-446c-a46f-49063a9ee7c5" />
+    <UnitTestResult executionId="257cfa0e-87bc-4e53-a0c2-83ada334e104" testId="301a6600-9e2d-39d4-8239-3723f064b089" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC03_Integration_UpdateContractInDraft_WithValidData_Returns200AndUpdatesDatabase" computerName="LAPTOP-LTE5438L" duration="00:00:00.0342889" startTime="2026-11-12T17:37:59.9834732+07:00" endTime="2026-11-12T17:37:59.9834733+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="257cfa0e-87bc-4e53-a0c2-83ada334e104" />
+    <UnitTestResult executionId="a436f91f-76cc-4be4-a5ea-b1e8d42c0642" testId="284ac269-f22e-e0f5-9938-aeffe5e8abae" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Invalid_SubmitContract_WhenCustomerIsNotActive_ThrowsValidationExceptionAndRemainsDraft" computerName="LAPTOP-LTE5438L" duration="00:00:00.0034193" startTime="2026-11-12T17:37:57.1801435+07:00" endTime="2026-11-12T17:37:57.1801436+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a436f91f-76cc-4be4-a5ea-b1e8d42c0642" />
+    <UnitTestResult executionId="418d08f3-2d98-4933-9870-3a28802e2719" testId="e1da8e5b-4ad5-84ee-e847-cac5e0027094" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC06_Integration_SubmitValidContract_WithoutRequestBody_Returns200AndTransitionsToPendingApproval" computerName="LAPTOP-LTE5438L" duration="00:00:00.0532734" startTime="2026-11-12T17:37:59.5453455+07:00" endTime="2026-11-12T17:37:59.5453458+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="418d08f3-2d98-4933-9870-3a28802e2719" />
+    <UnitTestResult executionId="faa3806e-946f-48e9-95f3-27e19b17578e" testId="132f220c-495b-ab26-c9c4-4a63e762f056" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Valid_TC06_SubmitContract_WhenAllConditionsMet_TransitionsToPendingApproval" computerName="LAPTOP-LTE5438L" duration="00:00:00.0026624" startTime="2026-11-12T17:37:57.1899792+07:00" endTime="2026-11-12T17:37:57.1899797+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="faa3806e-946f-48e9-95f3-27e19b17578e" />
+    <UnitTestResult executionId="d4c1fcba-45d0-42c9-9552-3e52883eb63f" testId="847efad1-3fd6-7567-2185-8434e83188eb" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Valid_SubmitContract_OnlyTransitionsToPendingApproval_NeverApproved" computerName="LAPTOP-LTE5438L" duration="00:00:00.0040110" startTime="2026-11-12T17:37:57.1851971+07:00" endTime="2026-11-12T17:37:57.1851977+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d4c1fcba-45d0-42c9-9552-3e52883eb63f" />
+    <UnitTestResult executionId="1b343fa2-4092-4629-9a7e-6fc89ca4f98f" testId="0192fcd2-93b5-2547-d5d9-9dc4cb169ede" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;KH-004&quot;, name: &quot;   &quot;, expectedErrorKey: &quot;Name&quot;)" computerName="LAPTOP-LTE5438L" duration="00:00:00.0002474" startTime="2026-11-12T17:37:57.1810110+07:00" endTime="2026-11-12T17:37:57.1810110+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b343fa2-4092-4629-9a7e-6fc89ca4f98f" />
+    <UnitTestResult executionId="047d520c-fc54-4a6a-b2db-6e7dbb89a4cb" testId="94f37a2f-a0ce-8efe-6a64-f34d2efece41" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC08_Integration_SubmitContractTwice_SecondCallReturns409AndDoesNotOverwriteSubmission" computerName="LAPTOP-LTE5438L" duration="00:00:00.8569207" startTime="2026-11-12T17:37:59.4905174+07:00" endTime="2026-11-12T17:37:59.4905182+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="047d520c-fc54-4a6a-b2db-6e7dbb89a4cb" />
+    <UnitTestResult executionId="1b04ab7c-b5fe-4bf2-86f7-142e2b91ba25" testId="06e19e09-74bd-ae92-e330-eacfb5fd8c64" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Valid_TC03_UpdateContract_WhenInDraft_UpdatesSuccessfully" computerName="LAPTOP-LTE5438L" duration="00:00:00.0009253" startTime="2026-11-12T17:37:57.2194254+07:00" endTime="2026-11-12T17:37:57.2194255+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1b04ab7c-b5fe-4bf2-86f7-142e2b91ba25" />
+    <UnitTestResult executionId="f088736c-c317-4acd-ba18-a9e08d41474e" testId="2aac3b36-78b1-d49d-99f7-0c117f54d242" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC05_Integration_SubmitContractMissingCtr02Conditions_Returns400AndRemainsDraftInDatabase" computerName="LAPTOP-LTE5438L" duration="00:00:00.0317669" startTime="2026-11-12T17:37:59.7418544+07:00" endTime="2026-11-12T17:37:59.7418548+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f088736c-c317-4acd-ba18-a9e08d41474e" />
+    <UnitTestResult executionId="222d32e8-f984-4959-a501-ac0916ae8479" testId="a89bcf38-e1d1-92a4-a55c-53705c618011" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC01_Integration_CreateValidCustomer_Returns201AndPersistsInDatabase" computerName="LAPTOP-LTE5438L" duration="00:00:00.0561352" startTime="2026-11-12T17:37:59.7095402+07:00" endTime="2026-11-12T17:37:59.7095413+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="222d32e8-f984-4959-a501-ac0916ae8479" />
+    <UnitTestResult executionId="7c4a362b-f807-4ccb-9be6-9fc362138b5e" testId="a36bc97d-f370-b258-5cd6-95451f70287f" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;   &quot;, name: &quot;Công ty ABC&quot;, expectedErrorKey: &quot;CustomerCode&quot;)" computerName="LAPTOP-LTE5438L" duration="00:00:00.0000189" startTime="2026-11-12T17:37:57.1810801+07:00" endTime="2026-11-12T17:37:57.1810801+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7c4a362b-f807-4ccb-9be6-9fc362138b5e" />
+    <UnitTestResult executionId="e70ea3f6-6e4a-4a9b-bc77-c42c6895c575" testId="d5d18abe-c32a-b2e1-fa25-1bd65d811fb6" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.EndToEnd_FullWorkflow_CreateCustomer_CreateDraft_SubmitFail_Update_SubmitSuccess_And_Pricing" computerName="LAPTOP-LTE5438L" duration="00:00:00.2063536" startTime="2026-11-12T17:37:59.9487078+07:00" endTime="2026-11-12T17:37:59.9487085+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e70ea3f6-6e4a-4a9b-bc77-c42c6895c575" />
+    <UnitTestResult executionId="0a517e21-3c50-4e0b-a268-86363f9ca581" testId="14aac26b-0471-ff05-3421-4e4e0bb4a6f1" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC08_Unit_SubmitContractTwice_SecondCallThrowsConflictAndDoesNotDuplicateProcessing" computerName="LAPTOP-LTE5438L" duration="00:00:00.0030255" startTime="2026-11-12T17:37:57.2195820+07:00" endTime="2026-11-12T17:37:57.2195820+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="0a517e21-3c50-4e0b-a268-86363f9ca581" />
+    <UnitTestResult executionId="2daf70f4-8777-44f4-92d2-9377e2529dd4" testId="69a67814-b135-ca2b-c830-fb655b1a7c19" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Invalid_TC05_SubmitContract_WhenMissingContentAndAttachment_ThrowsValidationExceptionAndRemainsDraft" computerName="LAPTOP-LTE5438L" duration="00:00:00.0007644" startTime="2026-11-12T17:37:57.2196079+07:00" endTime="2026-11-12T17:37:57.2196079+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2daf70f4-8777-44f4-92d2-9377e2529dd4" />
+    <UnitTestResult executionId="bb68323c-8d8d-4479-83f5-32f84da508bd" testId="590b6d61-b1bf-8320-5e47-f396ad675498" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC07_Integration_TryTransitionDraftDirectlyToApproved_Returns422AndRemainsDraft" computerName="LAPTOP-LTE5438L" duration="00:00:00.0251772" startTime="2026-11-12T17:37:59.6526669+07:00" endTime="2026-11-12T17:37:59.6526672+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb68323c-8d8d-4479-83f5-32f84da508bd" />
+    <UnitTestResult executionId="c5442a9b-ccdd-4de7-a1b0-93e7eb8a13e3" testId="938c05d8-2a30-2fbc-c5d1-64558059b0f3" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;KH-004&quot;, name: &quot;&quot;, expectedErrorKey: &quot;Name&quot;)" computerName="LAPTOP-LTE5438L" duration="00:00:00.0005172" startTime="2026-11-12T17:37:57.1807182+07:00" endTime="2026-11-12T17:37:57.1807183+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c5442a9b-ccdd-4de7-a1b0-93e7eb8a13e3" />
+    <UnitTestResult executionId="f8571d48-0d78-4f4f-8cd2-cc98d9ce1f8f" testId="74524445-64d9-4c1e-fdfe-118170ca7b90" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC01_Unit_CreateCustomer_WithValidData_CreatesAndReadsBackCustomer" computerName="LAPTOP-LTE5438L" duration="00:00:00.0077604" startTime="2026-11-12T17:37:57.1772353+07:00" endTime="2026-11-12T17:37:57.1772537+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f8571d48-0d78-4f4f-8cd2-cc98d9ce1f8f" />
+    <UnitTestResult executionId="ba80a3fa-7aa2-4a03-ac86-df941b1f27a1" testId="34dc6164-836f-f705-69ad-7b93d7059543" testName="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC04_Integration_UpdateContractInPendingApproval_Returns422AndPreservesDatabaseState" computerName="LAPTOP-LTE5438L" duration="00:00:00.0441236" startTime="2026-11-12T17:37:59.6269478+07:00" endTime="2026-11-12T17:37:59.6269481+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ba80a3fa-7aa2-4a03-ac86-df941b1f27a1" />
+    <UnitTestResult executionId="38a5059c-df03-4ea9-8126-6f0f5772838f" testId="afa27530-8b37-f56d-89d2-fc79ecaebd6b" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Valid_UpdateContract_WhenInRevisionRequested_UpdatesSuccessfully" computerName="LAPTOP-LTE5438L" duration="00:00:00.0039485" startTime="2026-11-12T17:37:57.2195532+07:00" endTime="2026-11-12T17:37:57.2195533+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="38a5059c-df03-4ea9-8126-6f0f5772838f" />
+    <UnitTestResult executionId="80147ccb-520b-4d9d-866d-50c30fe953f1" testId="90689ed7-4f4a-6334-a876-2e7094c301ee" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Invalid_TC04_UpdateContract_WhenInPendingApproval_ThrowsBusinessRuleExceptionAndPreservesData" computerName="LAPTOP-LTE5438L" duration="00:00:00.0007856" startTime="2026-11-12T17:37:57.2196380+07:00" endTime="2026-11-12T17:37:57.2196380+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="80147ccb-520b-4d9d-866d-50c30fe953f1" />
+    <UnitTestResult executionId="39321891-4515-4687-ad9e-213e337d6a2b" testId="2897579b-4a42-2bba-0123-7e3f988ef0a7" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Invalid_TC07_UpdateContract_TryTransitionDraftDirectlyToApproved_ThrowsBusinessRuleException" computerName="LAPTOP-LTE5438L" duration="00:00:00.0018994" startTime="2026-11-12T17:37:57.1872076+07:00" endTime="2026-11-12T17:37:57.1872079+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="39321891-4515-4687-ad9e-213e337d6a2b" />
+    <UnitTestResult executionId="f832159b-aa89-425d-8237-d23e3beb8755" testId="fc0abe10-5490-ac54-18d1-8a1e13f1328a" testName="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Invalid_CreateContract_WithApprovedStatus_ThrowsBusinessRuleException" computerName="LAPTOP-LTE5438L" duration="00:00:00.0018853" startTime="2026-11-12T17:37:57.2196679+07:00" endTime="2026-11-12T17:37:57.2196680+07:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f832159b-aa89-425d-8237-d23e3beb8755" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Invalid_CreateContract_WithApprovedStatus_ThrowsBusinessRuleException" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="fc0abe10-5490-ac54-18d1-8a1e13f1328a">
+      <Execution id="f832159b-aa89-425d-8237-d23e3beb8755" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR03_Invalid_CreateContract_WithApprovedStatus_ThrowsBusinessRuleException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC05_Integration_SubmitContractMissingCtr02Conditions_Returns400AndRemainsDraftInDatabase" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="2aac3b36-78b1-d49d-99f7-0c117f54d242">
+      <Execution id="f088736c-c317-4acd-ba18-a9e08d41474e" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC05_Integration_SubmitContractMissingCtr02Conditions_Returns400AndRemainsDraftInDatabase" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC02_Integration_CreateCustomerMissingRequiredFields_Returns400WithValidationErrorsAndDoesNotSave" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="4076e117-f6e1-2860-d8a3-72d4bfd34203">
+      <Execution id="9f268858-12b2-446c-a46f-49063a9ee7c5" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC02_Integration_CreateCustomerMissingRequiredFields_Returns400WithValidationErrorsAndDoesNotSave" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC08_Integration_SubmitContractTwice_SecondCallReturns409AndDoesNotOverwriteSubmission" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="94f37a2f-a0ce-8efe-6a64-f34d2efece41">
+      <Execution id="047d520c-fc54-4a6a-b2db-6e7dbb89a4cb" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC08_Integration_SubmitContractTwice_SecondCallReturns409AndDoesNotOverwriteSubmission" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC07_Integration_TryTransitionDraftDirectlyToApproved_Returns422AndRemainsDraft" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="590b6d61-b1bf-8320-5e47-f396ad675498">
+      <Execution id="bb68323c-8d8d-4479-83f5-32f84da508bd" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC07_Integration_TryTransitionDraftDirectlyToApproved_Returns422AndRemainsDraft" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;&quot;, name: &quot;Công ty ABC&quot;, expectedErrorKey: &quot;CustomerCode&quot;)" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="5908bc5a-999b-2dc4-b605-dab19a04b08f">
+      <Execution id="ccc77bfa-212c-474a-8fce-bb2866fc868f" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC01_Unit_CreateCustomer_WithValidData_CreatesAndReadsBackCustomer" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="74524445-64d9-4c1e-fdfe-118170ca7b90">
+      <Execution id="f8571d48-0d78-4f4f-8cd2-cc98d9ce1f8f" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC01_Unit_CreateCustomer_WithValidData_CreatesAndReadsBackCustomer" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC03_Integration_UpdateContractInDraft_WithValidData_Returns200AndUpdatesDatabase" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="301a6600-9e2d-39d4-8239-3723f064b089">
+      <Execution id="257cfa0e-87bc-4e53-a0c2-83ada334e104" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC03_Integration_UpdateContractInDraft_WithValidData_Returns200AndUpdatesDatabase" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.EndToEnd_FullWorkflow_CreateCustomer_CreateDraft_SubmitFail_Update_SubmitSuccess_And_Pricing" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="d5d18abe-c32a-b2e1-fa25-1bd65d811fb6">
+      <Execution id="e70ea3f6-6e4a-4a9b-bc77-c42c6895c575" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="EndToEnd_FullWorkflow_CreateCustomer_CreateDraft_SubmitFail_Update_SubmitSuccess_And_Pricing" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;KH-004&quot;, name: &quot;   &quot;, expectedErrorKey: &quot;Name&quot;)" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="0192fcd2-93b5-2547-d5d9-9dc4cb169ede">
+      <Execution id="1b343fa2-4092-4629-9a7e-6fc89ca4f98f" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Valid_UpdateContract_WhenInRevisionRequested_UpdatesSuccessfully" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="afa27530-8b37-f56d-89d2-fc79ecaebd6b">
+      <Execution id="38a5059c-df03-4ea9-8126-6f0f5772838f" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR01_Valid_UpdateContract_WhenInRevisionRequested_UpdatesSuccessfully" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Valid_TC03_UpdateContract_WhenInDraft_UpdatesSuccessfully" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="06e19e09-74bd-ae92-e330-eacfb5fd8c64">
+      <Execution id="1b04ab7c-b5fe-4bf2-86f7-142e2b91ba25" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR01_Valid_TC03_UpdateContract_WhenInDraft_UpdatesSuccessfully" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;KH-004&quot;, name: &quot;&quot;, expectedErrorKey: &quot;Name&quot;)" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="938c05d8-2a30-2fbc-c5d1-64558059b0f3">
+      <Execution id="c5442a9b-ccdd-4de7-a1b0-93e7eb8a13e3" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC08_Unit_SubmitContractTwice_SecondCallThrowsConflictAndDoesNotDuplicateProcessing" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="14aac26b-0471-ff05-3421-4e4e0bb4a6f1">
+      <Execution id="0a517e21-3c50-4e0b-a268-86363f9ca581" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC08_Unit_SubmitContractTwice_SecondCallThrowsConflictAndDoesNotDuplicateProcessing" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC04_Integration_UpdateContractInPendingApproval_Returns422AndPreservesDatabaseState" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="34dc6164-836f-f705-69ad-7b93d7059543">
+      <Execution id="ba80a3fa-7aa2-4a03-ac86-df941b1f27a1" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC04_Integration_UpdateContractInPendingApproval_Returns422AndPreservesDatabaseState" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Invalid_TC07_UpdateContract_TryTransitionDraftDirectlyToApproved_ThrowsBusinessRuleException" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="2897579b-4a42-2bba-0123-7e3f988ef0a7">
+      <Execution id="39321891-4515-4687-ad9e-213e337d6a2b" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR03_Invalid_TC07_UpdateContract_TryTransitionDraftDirectlyToApproved_ThrowsBusinessRuleException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Invalid_TC05_SubmitContract_WhenMissingContentAndAttachment_ThrowsValidationExceptionAndRemainsDraft" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="69a67814-b135-ca2b-c830-fb655b1a7c19">
+      <Execution id="2daf70f4-8777-44f4-92d2-9377e2529dd4" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR02_Invalid_TC05_SubmitContract_WhenMissingContentAndAttachment_ThrowsValidationExceptionAndRemainsDraft" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException(code: &quot;   &quot;, name: &quot;Công ty ABC&quot;, expectedErrorKey: &quot;CustomerCode&quot;)" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="a36bc97d-f370-b258-5cd6-95451f70287f">
+      <Execution id="7c4a362b-f807-4ccb-9be6-9fc362138b5e" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="TC02_Unit_CreateCustomer_MissingRequiredFields_ThrowsValidationException" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR01_Invalid_TC04_UpdateContract_WhenInPendingApproval_ThrowsBusinessRuleExceptionAndPreservesData" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="90689ed7-4f4a-6334-a876-2e7094c301ee">
+      <Execution id="80147ccb-520b-4d9d-866d-50c30fe953f1" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR01_Invalid_TC04_UpdateContract_WhenInPendingApproval_ThrowsBusinessRuleExceptionAndPreservesData" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Valid_TC06_SubmitContract_WhenAllConditionsMet_TransitionsToPendingApproval" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="132f220c-495b-ab26-c9c4-4a63e762f056">
+      <Execution id="faa3806e-946f-48e9-95f3-27e19b17578e" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR02_Valid_TC06_SubmitContract_WhenAllConditionsMet_TransitionsToPendingApproval" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR02_Invalid_SubmitContract_WhenCustomerIsNotActive_ThrowsValidationExceptionAndRemainsDraft" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="284ac269-f22e-e0f5-9938-aeffe5e8abae">
+      <Execution id="a436f91f-76cc-4be4-a5ea-b1e8d42c0642" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR02_Invalid_SubmitContract_WhenCustomerIsNotActive_ThrowsValidationExceptionAndRemainsDraft" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC01_Integration_CreateValidCustomer_Returns201AndPersistsInDatabase" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="a89bcf38-e1d1-92a4-a55c-53705c618011">
+      <Execution id="222d32e8-f984-4959-a501-ac0916ae8479" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC01_Integration_CreateValidCustomer_Returns201AndPersistsInDatabase" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests.TC06_Integration_SubmitValidContract_WithoutRequestBody_Returns200AndTransitionsToPendingApproval" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="e1da8e5b-4ad5-84ee-e847-cac5e0027094">
+      <Execution id="418d08f3-2d98-4933-9870-3a28802e2719" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Integration.QtkdApiIntegrationTests" name="TC06_Integration_SubmitValidContract_WithoutRequestBody_Returns200AndTransitionsToPendingApproval" />
+    </UnitTest>
+    <UnitTest name="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests.CTR03_Valid_SubmitContract_OnlyTransitionsToPendingApproval_NeverApproved" storage="d:\deadline\ptudhttthd\thuchanhphase2\tests\qtkd.api.tests\bin\debug\net9.0\qtkd.api.tests.dll" id="847efad1-3fd6-7567-2185-8434e83188eb">
+      <Execution id="d4c1fcba-45d0-42c9-9552-3e52883eb63f" />
+      <TestMethod codeBase="D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\tests\QTKD.Api.Tests\bin\Debug\net9.0\QTKD.Api.Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="QTKD.Api.Tests.Unit.ContractBusinessRuleUnitTests" name="CTR03_Valid_SubmitContract_OnlyTransitionsToPendingApproval_NeverApproved" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="5908bc5a-999b-2dc4-b605-dab19a04b08f" executionId="ccc77bfa-212c-474a-8fce-bb2866fc868f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4076e117-f6e1-2860-d8a3-72d4bfd34203" executionId="9f268858-12b2-446c-a46f-49063a9ee7c5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="301a6600-9e2d-39d4-8239-3723f064b089" executionId="257cfa0e-87bc-4e53-a0c2-83ada334e104" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="284ac269-f22e-e0f5-9938-aeffe5e8abae" executionId="a436f91f-76cc-4be4-a5ea-b1e8d42c0642" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="e1da8e5b-4ad5-84ee-e847-cac5e0027094" executionId="418d08f3-2d98-4933-9870-3a28802e2719" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="132f220c-495b-ab26-c9c4-4a63e762f056" executionId="faa3806e-946f-48e9-95f3-27e19b17578e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="847efad1-3fd6-7567-2185-8434e83188eb" executionId="d4c1fcba-45d0-42c9-9552-3e52883eb63f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0192fcd2-93b5-2547-d5d9-9dc4cb169ede" executionId="1b343fa2-4092-4629-9a7e-6fc89ca4f98f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94f37a2f-a0ce-8efe-6a64-f34d2efece41" executionId="047d520c-fc54-4a6a-b2db-6e7dbb89a4cb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="06e19e09-74bd-ae92-e330-eacfb5fd8c64" executionId="1b04ab7c-b5fe-4bf2-86f7-142e2b91ba25" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2aac3b36-78b1-d49d-99f7-0c117f54d242" executionId="f088736c-c317-4acd-ba18-a9e08d41474e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a89bcf38-e1d1-92a4-a55c-53705c618011" executionId="222d32e8-f984-4959-a501-ac0916ae8479" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a36bc97d-f370-b258-5cd6-95451f70287f" executionId="7c4a362b-f807-4ccb-9be6-9fc362138b5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d5d18abe-c32a-b2e1-fa25-1bd65d811fb6" executionId="e70ea3f6-6e4a-4a9b-bc77-c42c6895c575" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14aac26b-0471-ff05-3421-4e4e0bb4a6f1" executionId="0a517e21-3c50-4e0b-a268-86363f9ca581" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69a67814-b135-ca2b-c830-fb655b1a7c19" executionId="2daf70f4-8777-44f4-92d2-9377e2529dd4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="590b6d61-b1bf-8320-5e47-f396ad675498" executionId="bb68323c-8d8d-4479-83f5-32f84da508bd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="938c05d8-2a30-2fbc-c5d1-64558059b0f3" executionId="c5442a9b-ccdd-4de7-a1b0-93e7eb8a13e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="74524445-64d9-4c1e-fdfe-118170ca7b90" executionId="f8571d48-0d78-4f4f-8cd2-cc98d9ce1f8f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="34dc6164-836f-f705-69ad-7b93d7059543" executionId="ba80a3fa-7aa2-4a03-ac86-df941b1f27a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="afa27530-8b37-f56d-89d2-fc79ecaebd6b" executionId="38a5059c-df03-4ea9-8126-6f0f5772838f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="90689ed7-4f4a-6334-a876-2e7094c301ee" executionId="80147ccb-520b-4d9d-866d-50c30fe953f1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2897579b-4a42-2bba-0123-7e3f988ef0a7" executionId="39321891-4515-4687-ad9e-213e337d6a2b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc0abe10-5490-ac54-18d1-8a1e13f1328a" executionId="f832159b-aa89-425d-8237-d23e3beb8755" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="24" executed="24" passed="24" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.22)&#xD;
+[xUnit.net 00:00:00.11]   Discovering: QTKD.Api.Tests&#xD;
+[xUnit.net 00:00:00.15]   Discovered:  QTKD.Api.Tests&#xD;
+[xUnit.net 00:00:00.15]   Starting:    QTKD.Api.Tests&#xD;
+fail: Microsoft.EntityFrameworkCore.Database.Connection[20004]&#xD;
+      An error occurred using the connection to database 'qtkd_test_db' on server 'tcp://localhost:5432'.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (197ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE DATABASE qtkd_test_db;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE TABLE IF NOT EXISTS "__EFMigrationsHistory" (&#xD;
+          "MigrationId" character varying(150) NOT NULL,&#xD;
+          "ProductVersion" character varying(32) NOT NULL,&#xD;
+          CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY ("MigrationId")&#xD;
+      );&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      LOCK TABLE "__EFMigrationsHistory" IN ACCESS EXCLUSIVE MODE&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT "MigrationId", "ProductVersion"&#xD;
+      FROM "__EFMigrationsHistory"&#xD;
+      ORDER BY "MigrationId";&#xD;
+info: Microsoft.EntityFrameworkCore.Migrations[20402]&#xD;
+      Applying migration '20261029024207_InitialCreate'.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE TABLE customers (&#xD;
+          "Id" integer GENERATED BY DEFAULT AS IDENTITY,&#xD;
+          "CustomerCode" character varying(50) NOT NULL,&#xD;
+          "Name" character varying(200) NOT NULL,&#xD;
+          "TaxCode" character varying(50),&#xD;
+          "Address" character varying(300),&#xD;
+          "ContactEmail" character varying(150),&#xD;
+          "Status" character varying(50) NOT NULL,&#xD;
+          "CreatedAt" timestamp with time zone NOT NULL DEFAULT (now()),&#xD;
+          CONSTRAINT "PK_customers" PRIMARY KEY ("Id")&#xD;
+      );&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE TABLE price_lists (&#xD;
+          "Id" integer GENERATED BY DEFAULT AS IDENTITY,&#xD;
+          "Name" character varying(200) NOT NULL,&#xD;
+          "EffectiveDate" date NOT NULL,&#xD;
+          "ExpiryDate" date,&#xD;
+          "Status" character varying(50) NOT NULL,&#xD;
+          "CreatedAt" timestamp with time zone NOT NULL DEFAULT (now()),&#xD;
+          CONSTRAINT "PK_price_lists" PRIMARY KEY ("Id")&#xD;
+      );&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE TABLE contracts (&#xD;
+          "Id" integer GENERATED BY DEFAULT AS IDENTITY,&#xD;
+          "ContractNo" character varying(50) NOT NULL,&#xD;
+          "CustomerId" integer NOT NULL,&#xD;
+          "StartDate" date NOT NULL,&#xD;
+          "EndDate" date NOT NULL,&#xD;
+          "ServiceGroup" character varying(100),&#xD;
+          "ContentSummary" character varying(1000),&#xD;
+          "AttachmentUrl" character varying(500),&#xD;
+          "Status" character varying(50) NOT NULL,&#xD;
+          "SubmittedAt" timestamp with time zone,&#xD;
+          "CreatedAt" timestamp with time zone NOT NULL DEFAULT (now()),&#xD;
+          CONSTRAINT "PK_contracts" PRIMARY KEY ("Id"),&#xD;
+          CONSTRAINT "FK_contracts_customers_CustomerId" FOREIGN KEY ("CustomerId") REFERENCES customers ("Id") ON DELETE RESTRICT&#xD;
+      );&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE TABLE price_items (&#xD;
+          "Id" integer GENERATED BY DEFAULT AS IDENTITY,&#xD;
+          "PriceListId" integer NOT NULL,&#xD;
+          "ServiceCode" character varying(50) NOT NULL,&#xD;
+          "ServiceName" character varying(200) NOT NULL,&#xD;
+          "Unit" character varying(50) NOT NULL,&#xD;
+          "UnitPrice" numeric(18,2) NOT NULL,&#xD;
+          CONSTRAINT "PK_price_items" PRIMARY KEY ("Id"),&#xD;
+          CONSTRAINT "FK_price_items_price_lists_PriceListId" FOREIGN KEY ("PriceListId") REFERENCES price_lists ("Id") ON DELETE CASCADE&#xD;
+      );&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO customers ("Id", "Address", "ContactEmail", "CreatedAt", "CustomerCode", "Name", "Status", "TaxCode")&#xD;
+      VALUES (1, '123 Nguy?n Van Linh, Qu?n 7, TP.HCM', 'contact@minhphatlogistics.vn', TIMESTAMPTZ '2026-10-01T00:00:00Z', 'KH-001', 'C�ng ty TNHH Logistics Minh Ph�t', 'Active', '0312345678');&#xD;
+      INSERT INTO customers ("Id", "Address", "ContactEmail", "CreatedAt", "CustomerCode", "Name", "Status", "TaxCode")&#xD;
+      VALUES (2, '45 L� Th�nh T�n, Qu?n 1, TP.HCM', 'info@biendongshipping.vn', TIMESTAMPTZ '2026-10-01T00:00:00Z', 'KH-002', 'C�ng ty C? ph?n V?n t?i Bi?n D�ng', 'Active', '0398765432');&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO price_lists ("Id", "CreatedAt", "EffectiveDate", "ExpiryDate", "Name", "Status")&#xD;
+      VALUES (1, TIMESTAMPTZ '2026-10-01T00:00:00Z', DATE '2026-01-01', DATE '2026-12-31', 'B?ng gi� d?ch v? khai th�c c?ng ti�u chu?n 2026', 'Effective');&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("Id", "AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (1, 'https://storage.qtkd.local/contracts/HD-2026-018.pdf', 'H?p d?ng cung c?p d?ch v? b?c x?p v� luu kho bai container t?i c?ng C�t L�i', 'HD-2026-018', TIMESTAMPTZ '2026-10-01T00:00:00Z', 1, DATE '2027-09-30', 'D?ch v? c?ng', DATE '2026-10-01', 'Draft', NULL);&#xD;
+      INSERT INTO contracts ("Id", "AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (2, NULL, NULL, 'HD-2026-019', TIMESTAMPTZ '2026-10-01T00:00:00Z', 2, DATE '2027-10-31', 'V?n chuy?n n?i d?a', DATE '2026-11-01', 'Draft', NULL);&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO price_items ("Id", "PriceListId", "ServiceCode", "ServiceName", "Unit", "UnitPrice")&#xD;
+      VALUES (1, 1, 'SVC-CONT-20', 'B?c x?p container 20 feet', 'Container', 1250000.0);&#xD;
+      INSERT INTO price_items ("Id", "PriceListId", "ServiceCode", "ServiceName", "Unit", "UnitPrice")&#xD;
+      VALUES (2, 1, 'SVC-STORAGE-20', 'Luu kho bai container 20 feet', 'Ng�y', 180000.0);&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE UNIQUE INDEX "IX_contracts_ContractNo" ON contracts ("ContractNo");&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE INDEX "IX_contracts_CustomerId" ON contracts ("CustomerId");&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE UNIQUE INDEX "IX_customers_CustomerCode" ON customers ("CustomerCode");&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      CREATE UNIQUE INDEX "IX_price_items_PriceListId_ServiceCode" ON price_items ("PriceListId", "ServiceCode");&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT setval(&#xD;
+    pg_get_serial_sequence('customers', 'Id'),&#xD;
+    GREATEST(&#xD;
+        (SELECT MAX("Id") FROM customers) + 1,&#xD;
+        nextval(pg_get_serial_sequence('customers', 'Id'))),&#xD;
+    false);&#xD;
+      SELECT setval(&#xD;
+    pg_get_serial_sequence('price_lists', 'Id'),&#xD;
+    GREATEST(&#xD;
+        (SELECT MAX("Id") FROM price_lists) + 1,&#xD;
+        nextval(pg_get_serial_sequence('price_lists', 'Id'))),&#xD;
+    false);&#xD;
+      SELECT setval(&#xD;
+    pg_get_serial_sequence('contracts', 'Id'),&#xD;
+    GREATEST(&#xD;
+        (SELECT MAX("Id") FROM contracts) + 1,&#xD;
+        nextval(pg_get_serial_sequence('contracts', 'Id'))),&#xD;
+    false);&#xD;
+      SELECT setval(&#xD;
+    pg_get_serial_sequence('price_items', 'Id'),&#xD;
+    GREATEST(&#xD;
+        (SELECT MAX("Id") FROM price_items) + 1,&#xD;
+        nextval(pg_get_serial_sequence('price_items', 'Id'))),&#xD;
+    false);&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")&#xD;
+      VALUES ('20261029024207_InitialCreate', '9.0.10');&#xD;
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]&#xD;
+      Failed to determine the https port for redirect.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (24ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (7ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "Status" = @p0, "SubmittedAt" = @p1&#xD;
+      WHERE "Id" = @p2;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      QTKD.Api.Exceptions.ConflictException: [US03/AC05] H?p d?ng 'HD-TC08-2026' da du?c g?i tr�nh duy?t tru?c d� v� dang ? tr?ng th�i 'PendingApproval'. Kh�ng t?o th�m lu?t x? ly ph� duy?t tr�ng l?p.&#xD;
+         at QTKD.Api.Services.ContractService.SubmitAsync(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Services\ContractService.cs:line 154&#xD;
+         at QTKD.Api.Controllers.ContractsController.Submit(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Controllers\ContractsController.cs:line 76&#xD;
+         at lambda_method386(Closure, Object)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)&#xD;
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Program.cs:line 47&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+warn: QTKD.Api.Exceptions.GlobalExceptionHandler[0]&#xD;
+      Handled ConflictException: [US03/AC05] H?p d?ng 'HD-TC08-2026' da du?c g?i tr�nh duy?t tru?c d� v� dang ? tr?ng th�i 'PendingApproval'. Kh�ng t?o th�m lu?t x? ly ph� duy?t tr�ng l?p.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "Status" = @p0, "SubmittedAt" = @p1&#xD;
+      WHERE "Id" = @p2;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM customers AS c&#xD;
+          WHERE c."TaxCode" = '0310000000')&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "Status" = @p0, "SubmittedAt" = @p1&#xD;
+      WHERE "Id" = @p2;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      QTKD.Api.Exceptions.BusinessRuleException: [CTR-01] Ch? du?c ch?nh s?a h?p d?ng khi ? tr?ng th�i 'Draft' ho?c 'RevisionRequested'. Tr?ng th�i hi?n t?i: 'PendingApproval'.&#xD;
+         at QTKD.Api.Services.ContractService.UpdateAsync(Int32 id, UpdateContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Services\ContractService.cs:line 98&#xD;
+         at QTKD.Api.Controllers.ContractsController.Update(Int32 id, UpdateContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Controllers\ContractsController.cs:line 58&#xD;
+         at lambda_method449(Closure, Object)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)&#xD;
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Program.cs:line 47&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+warn: QTKD.Api.Exceptions.GlobalExceptionHandler[0]&#xD;
+      Handled BusinessRuleException: [CTR-01] Ch? du?c ch?nh s?a h?p d?ng khi ? tr?ng th�i 'Draft' ho?c 'RevisionRequested'. Tr?ng th�i hi?n t?i: 'PendingApproval'.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      QTKD.Api.Exceptions.BusinessRuleException: [CTR-03] Kh�ng du?c chuy?n tr?c ti?p h?p d?ng t? 'Draft' sang 'Approved'. H?p d?ng ph?i qua quy tr�nh tr�nh duy?t (POST /api/contracts/{id}/submit).&#xD;
+         at QTKD.Api.Services.ContractService.UpdateAsync(Int32 id, UpdateContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Services\ContractService.cs:line 108&#xD;
+         at QTKD.Api.Controllers.ContractsController.Update(Int32 id, UpdateContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Controllers\ContractsController.cs:line 58&#xD;
+         at lambda_method449(Closure, Object)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)&#xD;
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Program.cs:line 47&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+warn: QTKD.Api.Exceptions.GlobalExceptionHandler[0]&#xD;
+      Handled BusinessRuleException: [CTR-03] Kh�ng du?c chuy?n tr?c ti?p h?p d?ng t? 'Draft' sang 'Approved'. H?p d?ng ph?i qua quy tr�nh tr�nh duy?t (POST /api/contracts/{id}/submit).&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM customers AS c&#xD;
+          WHERE lower(c."CustomerCode") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (6ms) [Parameters=[@p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO customers ("Address", "ContactEmail", "CreatedAt", "CustomerCode", "Name", "Status", "TaxCode")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      QTKD.Api.Exceptions.ValidationException: [CTR-02] H?p d?ng chua d�p ?ng d? di?u ki?n b?t bu?c d? g?i tr�nh duy?t.&#xD;
+         at QTKD.Api.Services.ContractService.SubmitAsync(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Services\ContractService.cs:line 195&#xD;
+         at QTKD.Api.Controllers.ContractsController.Submit(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Controllers\ContractsController.cs:line 76&#xD;
+         at lambda_method386(Closure, Object)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)&#xD;
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Program.cs:line 47&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+warn: QTKD.Api.Exceptions.GlobalExceptionHandler[0]&#xD;
+      Handled ValidationException: [CTR-02] H?p d?ng chua d�p ?ng d? di?u ki?n b?t bu?c d? g?i tr�nh duy?t.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM customers AS c&#xD;
+          WHERE lower(c."CustomerCode") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@p0='?', @p1='?', @p2='?' (DbType = DateTime), @p3='?', @p4='?', @p5='?', @p6='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO customers ("Address", "ContactEmail", "CreatedAt", "CustomerCode", "Name", "Status", "TaxCode")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+fail: Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddleware[1]&#xD;
+      An unhandled exception has occurred while executing the request.&#xD;
+      QTKD.Api.Exceptions.ValidationException: [CTR-02] H?p d?ng chua d�p ?ng d? di?u ki?n b?t bu?c d? g?i tr�nh duy?t.&#xD;
+         at QTKD.Api.Services.ContractService.SubmitAsync(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Services\ContractService.cs:line 195&#xD;
+         at QTKD.Api.Controllers.ContractsController.Submit(Int32 id, SubmitContractRequest request, CancellationToken cancellationToken) in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Controllers\ContractsController.cs:line 76&#xD;
+         at lambda_method386(Closure, Object)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.AwaitableObjectResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeActionMethodAsync&gt;g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeNextActionFilterAsync&gt;g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State&amp; next, Scope&amp; scope, Object&amp; state, Boolean&amp; isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.&lt;InvokeInnerFilterAsync&gt;g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeFilterPipelineAsync&gt;g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.&lt;InvokeAsync&gt;g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)&#xD;
+         at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)&#xD;
+         at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)&#xD;
+         at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)&#xD;
+         at Program.&lt;&gt;c.&lt;&lt;&lt;Main&gt;$&gt;b__0_1&gt;d.MoveNext() in D:\DEADLINE\PTUDHTTTHD\ThucHanhPhase2\src\QTKD.Api\Program.cs:line 47&#xD;
+      --- End of stack trace from previous location ---&#xD;
+         at Microsoft.AspNetCore.Diagnostics.StatusCodePagesMiddleware.Invoke(HttpContext context)&#xD;
+         at Microsoft.AspNetCore.Diagnostics.ExceptionHandlerMiddlewareImpl.&lt;Invoke&gt;g__Awaited|10_0(ExceptionHandlerMiddlewareImpl middleware, HttpContext context, Task task)&#xD;
+warn: QTKD.Api.Exceptions.GlobalExceptionHandler[0]&#xD;
+      Handled ValidationException: [CTR-02] H?p d?ng chua d�p ?ng d? di?u ki?n b?t bu?c d? g?i tr�nh duy?t.&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?', @p1='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "AttachmentUrl" = @p0, "ContentSummary" = @p1&#xD;
+      WHERE "Id" = @p2;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (4ms) [Parameters=[@p2='?' (DbType = Int32), @p0='?', @p1='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "Status" = @p0, "SubmittedAt" = @p1&#xD;
+      WHERE "Id" = @p2;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p0='?' (DbType = DateTime), @p1='?' (DbType = Date), @p2='?' (DbType = Date), @p3='?', @p4='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO price_lists ("CreatedAt", "EffectiveDate", "ExpiryDate", "Name", "Status")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT p1."Id", p1."CreatedAt", p1."EffectiveDate", p1."ExpiryDate", p1."Name", p1."Status", p0."Id", p0."PriceListId", p0."ServiceCode", p0."ServiceName", p0."Unit", p0."UnitPrice"&#xD;
+      FROM (&#xD;
+          SELECT p."Id", p."CreatedAt", p."EffectiveDate", p."ExpiryDate", p."Name", p."Status"&#xD;
+          FROM price_lists AS p&#xD;
+          WHERE p."Id" = @__id_0&#xD;
+          LIMIT 1&#xD;
+      ) AS p1&#xD;
+      LEFT JOIN price_items AS p0 ON p1."Id" = p0."PriceListId"&#xD;
+      ORDER BY p1."Id"&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__priceListId_0='?' (DbType = Int32), @__ToLower_1='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM price_items AS p&#xD;
+          WHERE p."PriceListId" = @__priceListId_0 AND lower(p."ServiceCode") = @__ToLower_1)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (8ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?', @p4='?' (DbType = Decimal)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO price_items ("PriceListId", "ServiceCode", "ServiceName", "Unit", "UnitPrice")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__ToLower_0='?'], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT EXISTS (&#xD;
+          SELECT 1&#xD;
+          FROM contracts AS c&#xD;
+          WHERE lower(c."ContractNo") = @__ToLower_0)&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (7ms) [Parameters=[@p0='?', @p1='?', @p2='?', @p3='?' (DbType = DateTime), @p4='?' (DbType = Int32), @p5='?' (DbType = Date), @p6='?', @p7='?' (DbType = Date), @p8='?', @p9='?' (DbType = DateTime)], CommandType='Text', CommandTimeout='30']&#xD;
+      INSERT INTO contracts ("AttachmentUrl", "ContentSummary", "ContractNo", "CreatedAt", "CustomerId", "EndDate", "ServiceGroup", "StartDate", "Status", "SubmittedAt")&#xD;
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9)&#xD;
+      RETURNING "Id";&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt", c0."Id", c0."Address", c0."ContactEmail", c0."CreatedAt", c0."CustomerCode", c0."Name", c0."Status", c0."TaxCode"&#xD;
+      FROM contracts AS c&#xD;
+      INNER JOIN customers AS c0 ON c."CustomerId" = c0."Id"&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."Address", c."ContactEmail", c."CreatedAt", c."CustomerCode", c."Name", c."Status", c."TaxCode"&#xD;
+      FROM customers AS c&#xD;
+      WHERE c."Id" = @__id_0&#xD;
+      LIMIT 1&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (5ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?', @p1='?', @p2='?' (DbType = Date), @p3='?', @p4='?' (DbType = Date)], CommandType='Text', CommandTimeout='30']&#xD;
+      UPDATE contracts SET "AttachmentUrl" = @p0, "ContentSummary" = @p1, "EndDate" = @p2, "ServiceGroup" = @p3, "StartDate" = @p4&#xD;
+      WHERE "Id" = @p5;&#xD;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]&#xD;
+      Executed DbCommand (2ms) [Parameters=[@__created_Id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']&#xD;
+      SELECT c."Id", c."AttachmentUrl", c."ContentSummary", c."ContractNo", c."CreatedAt", c."CustomerId", c."EndDate", c."ServiceGroup", c."StartDate", c."Status", c."SubmittedAt"&#xD;
+      FROM contracts AS c&#xD;
+      WHERE c."Id" = @__created_Id_0&#xD;
+      LIMIT 1&#xD;
+[xUnit.net 00:00:03.01]   Finished:    QTKD.Api.Tests&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
