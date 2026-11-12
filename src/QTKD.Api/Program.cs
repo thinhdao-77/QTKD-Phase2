@@ -35,6 +35,18 @@ var app = builder.Build();
 app.UseExceptionHandler();
 app.UseStatusCodePages();
 
+// Cho phép các endpoint POST/PUT có [FromBody(EmptyBodyBehavior.Allow)] (như POST /api/contracts/{id}/submit)
+// nhận request rỗng không kèm Content-Type header mà không bị chặn bởi 415 Unsupported Media Type.
+app.Use(async (context, next) =>
+{
+    if ((context.Request.ContentLength is null or 0) && string.IsNullOrEmpty(context.Request.ContentType))
+    {
+        context.Request.ContentType = "application/json";
+    }
+
+    await next();
+});
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
